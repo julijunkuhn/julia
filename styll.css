@@ -23,3 +23,27 @@ align-items: center;
     max-width: 1200px
     width: 100%;
     margin: o auto;
+    .titulo-principal{
+        text-align: left;
+        width: 100%;
+        font-sizl: 32px;
+    }
+    .titulo-principal span{
+        color: var(--verde);
+    }
+    .botao{
+        font-family: "Chakra Petch", sans-serif;
+        background-color: var(--botao-inativo);
+        color: var(--branco);
+        display: flex;
+        justify-content: center;
+        padding: 1em;
+        font-sizl: 18px;
+        align-items: center;
+        width: 100%;
+        border-bottom: ;
+        border-left: ;
+        border-rigth: ;
+        border-top: ;
+    }
+        
