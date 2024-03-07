@@ -41,9 +41,28 @@ align-items: center;
         font-sizl: 18px;
         align-items: center;
         width: 100%;
-        border-bottom: ;
-        border-left: ;
-        border-rigth: ;
-        border-top: ;
+        border-bottom: 4px solid var(--botao-ativo);
+        border-left: 2px solid var(--botao-ativo);
+        border-rigth: 2px solid var(--botao-ativo);
+        border-top: none;
     }
+    .botao:first_child{
+        border-radius: 40px 40px 0 0;
+    }
+    .botoes{
+        display: block;
+    }
+    @media screen and (min-width: 768px){
+        .botoes{
+            display: block;
+        }
+        .botao:first-child{
+            border-radius: 40px 40px 0 0;
+            .botao:first-child{
+            border-radius: 40px 40px 0 0;
+            }
+        .botoes{
+            display: flex:
+            }
         
+
