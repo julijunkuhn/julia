@@ -14,66 +14,59 @@ body {
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
-.conteudo-pricipal{
+.conteudo-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-align-items: center;
-    max-width: 1200px
+    align-items: center;
+    max-width: 1200px;
+    width:100%;
+    margin:0 auto;
+}
+.titulo-principal {
+    text-align: left;
     width: 100%;
-    margin: o auto;
-    .titulo-principal{
-        text-align: left;
-        width: 100%;
-        font-sizl: 32px;
+    font-size:32px;
+}
+.titulo-principal spam{
+color: var(--verde);
+}
+.botao{
+    font-family:"Chakra Petch", sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display:flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width:100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-rigth: 2px solid var(--botao-ativo);
+    border-top: nome;
+}
+
+.botao:first-child{
+    border-radius: 40px 40px 0 0;
+}
+.botoes{
+    display: block;
+}
+
+@media screen and (min-width:768px){
+.botoes{
+display: flex;
+}
+    botao:first-child{
+border-radius: 40px 40px 0 0;
     }
-    .titulo-principal span{
-        color: var(--verde);
+    botao:last-child{
+        border-radius: 0 40px 0 0;
     }
-    .botao{
-        font-family: "Chakra Petch", sans-serif;
-        background-color: var(--botao-inativo);
-        color: var(--branco);
-        display: flex;
-        justify-content: center;
-        padding: 1em;
-        font-sizl: 18px;
-        align-items: center;
-        width: 100%;
-        border-bottom: 4px solid var(--botao-ativo);
-        border-left: 2px solid var(--botao-ativo);
-        border-rigth: 2px solid var(--botao-ativo);
-        border-top: none;
-    }
-    .botao:first_child{
-        border-radius: 40px 40px 0 0;
-    }
-    .botoes{
-        display: block;
-    }
-    .ativo{
-        background-color: var(--botao-ativo);
-        border-bottom: 4px solid var(--verde);
-    }
-    @media screen and (min-width: 768px){
-        .botoes{
-            display: block;
-        }
-        .botao:first-child{
-            border-radius: 40px 40px 0 0;
-            .botao:first-child{
-            border-radius: 40px 40px 0 0;
-            }
-        .botoes{
-            display: flex:
-            }
-            .botao: first-child{
-                border-radius: 40px 0 0 0;
-            }
-            .botao: last-child{
-                border-radius: 0 40px 0 0;
-            }
-            
-        
+}
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+}
 
